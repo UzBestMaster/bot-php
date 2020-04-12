@@ -57,7 +57,7 @@ bot('sendmessage', [
             ]);
 }
 
-if(preg_match('/^\/([Ss]alom)/',$text)){
+if($text == "Salom" or $text == "salom"){
 bot('sendmessage', [
                 'chat_id' => $chat_id,
                 'text' =>"*Qalee???*",
