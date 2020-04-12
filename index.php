@@ -1,9 +1,5 @@
 <?php 
-/**
- *Author: Tilon
- *
- *Telegram : @TILON
- */
+
 $API_KEY = '1081550790:AAFEV_TkWatS47QrZmDw9UrEeb3gaiGkIZ4';
 ##------------------------------##
 define('API_KEY',$API_KEY);
