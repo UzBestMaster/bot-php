@@ -56,4 +56,12 @@ bot('sendmessage', [
                 'text' =>"@UzBestMaster",
             ]);
 }
+
+if(preg_match('/^\/([Ss]alom)/',$text)){
+bot('sendmessage', [
+                'chat_id' => $chat_id,
+                'text' =>"*Qalee???*",
+                'parse_mode'=>"markdown"
+            ]);
+}
 ?>
